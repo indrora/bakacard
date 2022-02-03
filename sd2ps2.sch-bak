@@ -1,0 +1,408 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 61F8C114
+P 3600 2850
+F 0 "J1" H 3518 2225 50  0000 C CNN
+F 1 "Conn_01x08" H 3518 2316 50  0000 C CNN
+F 2 "sd2ps2:PlayStation_Memory_Card" H 3600 2850 50  0001 C CNN
+F 3 "~" H 3600 2850 50  0001 C CNN
+	1    3600 2850
+	-1   0    0    1   
+$EndComp
+Text Label 4200 3150 0    50   ~ 0
+DO
+Text Label 4200 3050 0    50   ~ 0
+DI
+NoConn ~ 3800 2950
+Wire Wire Line
+	3800 3050 4200 3050
+Wire Wire Line
+	3800 3150 4200 3150
+$Comp
+L power:GND #PWR03
+U 1 1 61F90692
+P 4050 3300
+F 0 "#PWR03" H 4050 3050 50  0001 C CNN
+F 1 "GND" H 4055 3127 50  0000 C CNN
+F 2 "" H 4050 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3300 4050 2850
+Wire Wire Line
+	4050 2850 3800 2850
+$Comp
+L power:+3.3V #PWR04
+U 1 1 61F90CAE
+P 4100 2200
+F 0 "#PWR04" H 4100 2050 50  0001 C CNN
+F 1 "+3.3V" H 4115 2373 50  0000 C CNN
+F 2 "" H 4100 2200 50  0001 C CNN
+F 3 "" H 4100 2200 50  0001 C CNN
+	1    4100 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2750 4100 2750
+Wire Wire Line
+	4100 2750 4100 2200
+Wire Wire Line
+	3800 2650 4450 2650
+Wire Wire Line
+	3800 2550 4450 2550
+Text Label 4450 2450 2    50   ~ 0
+ACK
+Text Label 4450 2550 2    50   ~ 0
+CLK
+Text Label 4450 2650 2    50   ~ 0
+CS
+$Comp
+L Device:R R1
+U 1 1 61F9F74A
+P 5000 2650
+F 0 "R1" H 5070 2696 50  0000 L CNN
+F 1 "47" H 5070 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 2650 50  0001 C CNN
+F 3 "~" H 5000 2650 50  0001 C CNN
+F 4 "C319585" H 5000 2650 50  0001 C CNN "LCSC"
+F 5 "NS" H 5000 2650 50  0001 C CNN "NonStuffed"
+	1    5000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2450 5000 2500
+$Comp
+L power:GND #PWR06
+U 1 1 61FA0FB1
+P 5000 3000
+F 0 "#PWR06" H 5000 2750 50  0001 C CNN
+F 1 "GND" H 5005 2827 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+Text Label 5850 3550 2    50   ~ 0
+CD
+$Comp
+L power:+3.3V #PWR010
+U 1 1 61FAA7C5
+P 7950 2150
+F 0 "#PWR010" H 7950 2000 50  0001 C CNN
+F 1 "+3.3V" H 7965 2323 50  0000 C CNN
+F 2 "" H 7950 2150 50  0001 C CNN
+F 3 "" H 7950 2150 50  0001 C CNN
+	1    7950 2150
+	1    0    0    -1  
+$EndComp
+Text Label 7300 2450 0    50   ~ 0
+CS
+$Comp
+L Device:R R2
+U 1 1 61FAC2C0
+P 6050 3550
+F 0 "R2" V 6257 3550 50  0000 C CNN
+F 1 "1K" V 6166 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5980 3550 50  0001 C CNN
+F 3 "~" H 6050 3550 50  0001 C CNN
+F 4 "C284142" H 6050 3550 50  0001 C CNN "LCSC"
+	1    6050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR09
+U 1 1 61FB22D2
+P 5800 4200
+F 0 "#PWR09" H 5800 4050 50  0001 C CNN
+F 1 "+3.3V" H 5815 4373 50  0000 C CNN
+F 2 "" H 5800 4200 50  0001 C CNN
+F 3 "" H 5800 4200 50  0001 C CNN
+	1    5800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4450 5800 4450
+Wire Wire Line
+	5800 4450 5800 4200
+$Comp
+L power:GND #PWR08
+U 1 1 61FB3280
+P 5750 4750
+F 0 "#PWR08" H 5750 4500 50  0001 C CNN
+F 1 "GND" H 5755 4577 50  0000 C CNN
+F 2 "" H 5750 4750 50  0001 C CNN
+F 3 "" H 5750 4750 50  0001 C CNN
+	1    5750 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4750 5750 4650
+Wire Wire Line
+	5500 4350 5750 4350
+Connection ~ 5750 4350
+Wire Wire Line
+	5500 4550 5750 4550
+Connection ~ 5750 4550
+Wire Wire Line
+	5750 4550 5750 4350
+Wire Wire Line
+	5500 4650 5750 4650
+Connection ~ 5750 4650
+Wire Wire Line
+	5750 4650 5750 4550
+Wire Wire Line
+	4200 4150 3700 4150
+Text Label 3700 4150 0    50   ~ 0
+CS
+Text Label 3700 4250 0    50   ~ 0
+DI
+Wire Wire Line
+	3700 4250 4200 4250
+Wire Wire Line
+	3700 4450 4200 4450
+Text Label 3700 4450 0    50   ~ 0
+CLK
+$Comp
+L power:+3.3V #PWR05
+U 1 1 61FB911C
+P 3900 3850
+F 0 "#PWR05" H 3900 3700 50  0001 C CNN
+F 1 "+3.3V" H 3915 4023 50  0000 C CNN
+F 2 "" H 3900 3850 50  0001 C CNN
+F 3 "" H 3900 3850 50  0001 C CNN
+	1    3900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3850 3900 4350
+Wire Wire Line
+	3900 4350 4200 4350
+Text Label 3700 4550 0    50   ~ 0
+DO
+Wire Wire Line
+	3700 4550 4200 4550
+NoConn ~ 5500 4050
+NoConn ~ 4200 4650
+NoConn ~ 4200 4050
+$Comp
+L SamacSys_Parts:LTST-S327KGKFKT LED1
+U 1 1 61FBD491
+P 6400 3550
+F 0 "LED1" H 7100 3185 50  0000 C CNN
+F 1 "LTST-S327KGKFKT" H 7100 3276 50  0000 C CNN
+F 2 "SamacSys_Parts:LTSTS327KGKFKT" H 7650 3650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-S327KGKFKT_C284917.pdf" H 7650 3550 50  0001 L CNN
+F 4 "SMD LED" H 7650 3450 50  0001 L CNN "Description"
+F 5 "2" H 7650 3350 50  0001 L CNN "Height"
+F 6 "Lite-On" H 7650 3250 50  0001 L CNN "Manufacturer_Name"
+F 7 "LTST-S327KGKFKT" H 7650 3150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7650 3050 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 7650 2950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7650 2850 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 7650 2750 50  0001 L CNN "Arrow Price/Stock"
+	1    6400 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6200 3550 6400 3550
+Wire Wire Line
+	7950 3450 7800 3450
+$Comp
+L SamacSys_Parts:DM3AT-SF-PEJM5 J2
+U 1 1 61FC3F13
+P 4200 4050
+F 0 "J2" H 4850 4315 50  0000 C CNN
+F 1 "DM3AT-SF-PEJM5" H 4850 4224 50  0000 C CNN
+F 2 "SamacSys_Parts:DM3ATSFPEJM5" H 5350 4150 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3AT-SF-PEJM5_C114218.pdf" H 5350 4050 50  0001 L CNN
+F 4 "Memory Card Connectors R/A SMT MICROSD CON PUSH-PUSH TOP BRDMNT" H 5350 3950 50  0001 L CNN "Description"
+F 5 "1.83" H 5350 3850 50  0001 L CNN "Height"
+F 6 "Hirose" H 5350 3750 50  0001 L CNN "Manufacturer_Name"
+F 7 "DM3AT-SF-PEJM5" H 5350 3650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-DM3AT-SF-PEJM5" H 5350 3550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D" H 5350 3450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5350 3350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5350 3250 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C26618" H 4200 4050 50  0001 C CNN "LCSC"
+	1    4200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 61FC54A1
+P 7900 3800
+F 0 "#PWR011" H 7900 3550 50  0001 C CNN
+F 1 "GND" H 7905 3627 50  0000 C CNN
+F 2 "" H 7900 3800 50  0001 C CNN
+F 3 "" H 7900 3800 50  0001 C CNN
+	1    7900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3550 7900 3550
+Wire Wire Line
+	7900 3550 7900 3800
+$Comp
+L power:GND #PWR02
+U 1 1 61FCB906
+P 2850 4650
+F 0 "#PWR02" H 2850 4400 50  0001 C CNN
+F 1 "GND" H 2855 4477 50  0000 C CNN
+F 2 "" H 2850 4650 50  0001 C CNN
+F 3 "" H 2850 4650 50  0001 C CNN
+	1    2850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 61FCBCDF
+P 2850 4100
+F 0 "#PWR01" H 2850 3950 50  0001 C CNN
+F 1 "+3.3V" H 2865 4273 50  0000 C CNN
+F 2 "" H 2850 4100 50  0001 C CNN
+F 3 "" H 2850 4100 50  0001 C CNN
+	1    2850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 61FCE1C2
+P 2850 4400
+F 0 "C1" V 2750 4350 50  0000 L CNN
+F 1 "470nF" V 2950 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2850 4400 50  0001 C CNN
+F 3 "~" H 2850 4400 50  0001 C CNN
+	1    2850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4150 5750 4350
+Wire Wire Line
+	5500 4150 5750 4150
+Wire Wire Line
+	5500 4250 5700 4250
+Text Label 5700 4250 2    50   ~ 0
+CD
+Wire Wire Line
+	2850 4100 2850 4300
+Wire Wire Line
+	2850 4500 2850 4650
+Wire Wire Line
+	3800 2450 5000 2450
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 620A43AA
+P 6400 7150
+F 0 "#LOGO1" H 6400 7650 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 6400 6750 50  0001 C CNN
+F 2 "" H 6400 7150 50  0001 C CNN
+F 3 "~" H 6400 7150 50  0001 C CNN
+	1    6400 7150
+	1    0    0    -1  
+$EndComp
+Text Notes 4250 4950 0    50   ~ 0
+Hirose part DM3AT-SF-PEJM5
+Text Notes 4250 5050 0    50   ~ 0
+swap with Xunpu TF-111
+Text Notes 4250 5200 0    50   ~ 0
+Hirose is LCSC C114218
+Text Notes 4250 5300 0    50   ~ 0
+Xunpu is LCSC C266618
+Text Label 5500 2350 0    50   ~ 0
+CD
+Wire Wire Line
+	5000 2800 5000 3000
+$Comp
+L power:GND #PWR07
+U 1 1 620C40CD
+P 6150 2600
+F 0 "#PWR07" H 6150 2350 50  0001 C CNN
+F 1 "GND" H 6155 2427 50  0000 C CNN
+F 2 "" H 6150 2600 50  0001 C CNN
+F 3 "" H 6150 2600 50  0001 C CNN
+	1    6150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2550 6150 2600
+Wire Wire Line
+	7300 2450 7600 2450
+Wire Wire Line
+	5500 2350 5700 2350
+Wire Wire Line
+	5000 2450 5000 1850
+Wire Wire Line
+	5000 1850 6150 1850
+Connection ~ 5000 2450
+Wire Wire Line
+	7950 2150 7950 2250
+Wire Wire Line
+	7950 3050 7950 3450
+$Comp
+L Transistor_BJT:DTC114T Q2
+U 1 1 62113711
+P 7850 2450
+F 0 "Q2" H 8038 2496 50  0000 L CNN
+F 1 "DTC114T" H 8038 2405 50  0000 L CNN
+F 2 "sd2ps2:SOT-7_23Combo" H 7850 2450 50  0001 L CNN
+F 3 "" H 7850 2450 50  0001 L CNN
+F 4 "C110682" H 7850 2450 50  0001 C CNN "LCSC"
+	1    7850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DTC114T Q1
+U 1 1 62115CBF
+P 6050 2350
+F 0 "Q1" H 6238 2396 50  0000 L CNN
+F 1 "DTC114T" H 6238 2305 50  0000 L CNN
+F 2 "sd2ps2:SOT-7_23Combo" H 6050 2350 50  0001 L CNN
+F 3 "" H 6050 2350 50  0001 L CNN
+F 4 "C552156" H 6050 2350 50  0001 C CNN "LCSC"
+	1    6050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1850 6150 2150
+Wire Wire Line
+	7950 2650 7950 2750
+$Comp
+L Device:R R3
+U 1 1 61FABF03
+P 7950 2900
+F 0 "R3" H 8020 2946 50  0000 L CNN
+F 1 "1K" H 8020 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7880 2900 50  0001 C CNN
+F 3 "~" H 7950 2900 50  0001 C CNN
+F 4 "C284142" H 7950 2900 50  0001 C CNN "LCSC"
+	1    7950 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2350
+Wire Wire Line
+	5700 2350 5800 2350
+Wire Wire Line
+	5700 4250 5700 3550
+Wire Wire Line
+	5700 3550 5900 3550
+Connection ~ 5700 3550
+Wire Wire Line
+	5700 3550 5700 2350
+$EndSCHEMATC

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\indrora\src\sd2ps2\sd2ps2.kicad_sch</source>
+    <date>2022-02-03 01:52:06</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sd2ps2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C29823</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C29823"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fce1c2</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value> </value>
+      <footprint>sd2ps2:PlayStation_Memory_Card</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061f8c114</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DM3AT-SF-PEJM5</value>
+      <footprint>DM3ATSFPEJM5</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3AT-SF-PEJM5_C114218.pdf</datasheet>
+      <fields>
+        <field name="Description">Memory Card Connectors R/A SMT MICROSD CON PUSH-PUSH TOP BRDMNT</field>
+        <field name="Height">1.83</field>
+        <field name="LCSC">C266618</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">DM3AT-SF-PEJM5</field>
+        <field name="Mouser Part Number">798-DM3AT-SF-PEJM5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D</field>
+      </fields>
+      <libsource lib="local" part="DM3AT-SF-PEJM5" description="Memory Card Connectors R/A SMT MICROSD CON PUSH-PUSH TOP BRDMNT"/>
+      <property name="Description" value="Memory Card Connectors R/A SMT MICROSD CON PUSH-PUSH TOP BRDMNT"/>
+      <property name="Height" value="1.83"/>
+      <property name="Manufacturer_Name" value="Hirose"/>
+      <property name="Manufacturer_Part_Number" value="DM3AT-SF-PEJM5"/>
+      <property name="Mouser Part Number" value="798-DM3AT-SF-PEJM5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="C266618"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fc3f13</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LTST-S327KGKFKT</value>
+      <footprint>LTSTS327KGKFKT</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-S327KGKFKT_C284917.pdf</datasheet>
+      <fields>
+        <field name="Description">SMD LED</field>
+        <field name="Height">2</field>
+        <field name="LCSC">C284917</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-S327KGKFKT</field>
+      </fields>
+      <libsource lib="local" part="LTST-S327KGKFKT" description="SMD LED"/>
+      <property name="Description" value="SMD LED"/>
+      <property name="Height" value="2"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Manufacturer_Part_Number" value="LTST-S327KGKFKT"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="LCSC" value="C284917"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fbd491</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DTC114T</value>
+      <footprint>sd2ps2:SOT-7_23Combo</footprint>
+      <fields>
+        <field name="LCSC">C552156</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="DTC114T" description="Digital NPN Transistor, 10k/NONE, SOT-23"/>
+      <property name="LCSC" value="C552156"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062115cbf</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DTC114T</value>
+      <footprint>sd2ps2:SOT-7_23Combo</footprint>
+      <fields>
+        <field name="LCSC">C110682</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="DTC114T" description="Digital NPN Transistor, 10k/NONE, SOT-23"/>
+      <property name="LCSC" value="C110682"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062113711</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C319585</field>
+        <field name="NonStuffed">NS</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C319585"/>
+      <property name="NonStuffed" value="NS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061f9f74a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C4410</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C4410"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fac2c0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C4410</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C4410"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sd2ps2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061fabf03</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="DTC114T">
+      <description>Digital NPN Transistor, 10k/NONE, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SC?59*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DTC114T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="DM3AT-SF-PEJM5">
+      <description>Memory Card Connectors R/A SMT MICROSD CON PUSH-PUSH TOP BRDMNT</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3AT-SF-PEJM5_C114218.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DM3AT-SF-PEJM5</field>
+        <field name="Footprint">DM3ATSFPEJM5</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3AT-SF-PEJM5_C114218.pdf</field>
+        <field name="Description">Memory Card Connectors R/A SMT MICROSD CON PUSH-PUSH TOP BRDMNT</field>
+        <field name="Height">1.83</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">DM3AT-SF-PEJM5</field>
+        <field name="Mouser Part Number">798-DM3AT-SF-PEJM5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="passive"/>
+        <pin num="2" name="CD/DAT3" type="passive"/>
+        <pin num="3" name="CMD" type="passive"/>
+        <pin num="4" name="VDD" type="passive"/>
+        <pin num="5" name="CLK" type="passive"/>
+        <pin num="6" name="VSS" type="passive"/>
+        <pin num="7" name="DAT0" type="passive"/>
+        <pin num="8" name="DAT1" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+        <pin num="MP3" name="MP3" type="passive"/>
+        <pin num="MP4" name="MP4" type="passive"/>
+        <pin num="MP5" name="MP5" type="passive"/>
+        <pin num="MP6" name="MP6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LTST-S327KGKFKT">
+      <description>SMD LED</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-S327KGKFKT_C284917.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTST-S327KGKFKT</field>
+        <field name="Footprint">LTSTS327KGKFKT</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-S327KGKFKT_C284917.pdf</field>
+        <field name="Description">SMD LED</field>
+        <field name="Height">2</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-S327KGKFKT</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="ANODE_1" type="passive"/>
+        <pin num="A2" name="ANODE_2" type="passive"/>
+        <pin num="C1" name="CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="local">
+      <uri>C:\Users\indrora\src\sd2ps2/local.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="VDD" pintype="passive"/>
+      <node ref="J2" pin="MP4" pinfunction="MP4" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="2" name="/ACK">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/CD">
+      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/CLK">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="CLK" pintype="passive"/>
+    </net>
+    <net code="5" name="/CS">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="CD/DAT3" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="6" name="/DI">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="CMD" pintype="passive"/>
+    </net>
+    <net code="7" name="/DO">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="VSS" pintype="passive"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J2" pin="MP3" pinfunction="MP3" pintype="passive"/>
+      <node ref="J2" pin="MP5" pinfunction="MP5" pintype="passive"/>
+      <node ref="J2" pin="MP6" pinfunction="MP6" pintype="passive"/>
+      <node ref="LED1" pin="C1" pinfunction="CATHODE" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(LED1-PadA1)">
+      <node ref="LED1" pin="A1" pinfunction="ANODE_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(LED1-PadA2)">
+      <node ref="LED1" pin="A2" pinfunction="ANODE_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="DAT2" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="DAT0" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="DAT1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
