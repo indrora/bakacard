@@ -1,0 +1,14 @@
+Eratta
+
+--- REV A ---
+
+If you have a Rev A board, you will find that there is a glaring bug: I've connected VSS
+(ground) to DO and DAT0 to nothing!
+
+To fix:
+
+* Cut the trace to pin 6 on the SD card slot just below C1.
+* Run a wire from pin 6 on the SD card slot to GND (use the pad on C1)
+* Run a wire from pin 7 to the via just below C1. 
+
+see `bodge-reva.png` for the fix graphically.

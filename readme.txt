@@ -37,16 +37,6 @@ Pick your pick & place shop. To fit this into a legit Playstation2 shell, have t
 from 1.1mm thick FR4 with either ENIG Gold or lead-free HASL. The ENIG Gold looks pretty
 but comes at a higher cost. 
 
---- ERRORS IN REV A ---
-
-If you have a Rev A board, you will find that there is a glaring bug: I've connected VSS
-(ground) to DO and DAT0 to nothing!
-
-To fix:
-
-* Cut the trace to pin 6 on the SD card slot just below C1.
-* Run a wire from pin 6 on the SD card slot to GND (use the pad on C1)
-* Run a wire from pin 7 to the via just below C1. 
 
 --- LICENSE & COPYRIGHT ---
 
